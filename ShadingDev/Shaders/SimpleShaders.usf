@@ -1,0 +1,15 @@
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Public/Platform.ush"
+
+RWTexture3D<float4> RWOutput;
+StructuredBuffer<float4> InDataBuffer;
+
+[numthreads(32, 32, 1)]
+void SimpleComputeCS(
+	uint3 GroupId : SV_GroupID,
+	uint3 DispatchThreadId : SV_DispatchThreadID,
+	uint3 GroupThreadId : SV_GroupThreadID)
+{
+    RWOutput[DispatchThreadId.xyz] = InDataBuffer[0];
+}
+

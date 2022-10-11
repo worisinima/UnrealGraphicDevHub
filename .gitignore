@@ -1,0 +1,17 @@
+.vs/
+*.sln
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.idea/
+SDHGame.sln.DotSettings.user
+Plugins/UE4GitPlugin/
+backup/
+CoreDCCAssets/SkyCityDev/ChineseBuildingParts.mb
+CoreDCCAssets/SkyCityDev/TangBuilding.mb
+CoreDCCAssets/SkyCityDev/FoGuangSi&&NanChanSi.mb
+CoreDCCAssets/SkyCityDev/ChineseBuildings.mb
+MeshExport/
+CoreDCCAssets/
